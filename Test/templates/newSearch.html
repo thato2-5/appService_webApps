@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Search Page!
+{% endblock %}
+
+{% block content %}
+    <p>Custom Test Page using jinja2 templates</p>
+    <form action="{{url_for('searchResult')}}" method="POST">
+        <fieldset>
+            <legend>Search Form</legend>
+            {{form.csrf_token}}
+            {% if form.search.errors %}
+                {% for error in form.search.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.search.label}}</p>
+            <p>{{form.search}}</p>
+            <p>{{form.submit}}</p>
+        </fieldset>
+    </form>
+{% endblock %}

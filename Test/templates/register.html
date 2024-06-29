@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Register!
+{% endblock %}
+
+{% block content %}
+<p>Custom Test Page using jinja2 templates</p>
+{% for message in get_flashed_messages() %}
+    <div>{{message}}</div>
+{% endfor %}
+    <form action="{{url_for('registration')}}" method="POST">
+        <fieldset>
+            <legend>Registration Form</legend>
+            {{form.csrf_token}}
+            {% if form.name.errors %}
+                {% for error in form.name.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.name.label}}</p>
+            <p>{{form.name}}</p>
+            {% if form.username.errors %}
+                {% for error in form.username.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.username.label}}</p>
+            <p>{{form.username}}</p>
+            {% if form.email.errors %}
+                {% for error in form.email.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.email.label}}</p>
+            <p>{{form.email}}</p>
+            {% if form.password1.errors %}
+                {% for error in form.password1.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.password1.label}}</p>
+            <p>{{form.password1}}</p>
+            {% if form.password2.errors %}
+                {% for error in form.password2.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{form.password2.label}}</p>
+            <p>{{form.password2}}</p>
+            <p>{{form.submit}}</p>
+        </fieldset>
+    </form>
+{% endblock %}

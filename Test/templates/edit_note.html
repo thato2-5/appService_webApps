@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Edit Note!
+{% endblock %}
+
+{% block content %}
+
+{% for message in get_flashed_messages() %}
+	<div>
+	  {{ message }}
+	</div>
+{% endfor %}
+
+<br/>
+<h2>Edit Note...</h2>
+<br/>
+<div>
+	<form action = "{{url_for('edit_note')}}" method="POST">
+		<fieldset>
+            {{form.csrf_token}}
+            <legend>Add Note</legend>
+            {% if form.title.errors %}
+                {% for error in form.title.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{ form.title.label }}</p>
+            <p>{{ form.title }}</p>
+            {% if form.description.errors %}
+                {% for error in form.description.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %} 
+            <p>{{ form.description.label}}</p>
+            <p>{{ form.description }}</p>
+            <p>{{ form.submit }}</p>
+        </fieldset>
+	</form>
+	
+</div>
+
+<a href="{{ url_for('notes')}}">Back To Notes</a>
+
+{% endblock %}

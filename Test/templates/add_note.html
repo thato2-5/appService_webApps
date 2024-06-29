@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Add Note!
+{% endblock %}
+
+{% block content %}
+
+{% for message in get_flashed_messages() %}
+	<div>
+	  {{ message }}
+	</div>
+{% endfor %}
+
+{% if current_user.is_authenticated %}
+
+<h1>Add Note...</h1>
+	<br/>
+<div>
+	<form action = "{{url_for('add_note')}}" method="POST">
+        <fieldset>
+            {{form.csrf_token}}
+            <legend>Add Note</legend>
+            {% if form.title.errors %}
+                {% for error in form.title.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %}
+            <p>{{ form.title.label }}</p>
+            <p>{{ form.title }}</p>
+            {% if form.description.errors %}
+                {% for error in form.description.errors %}
+                    <div>{{error}}</div>
+                {% endfor %}
+            {% endif %} 
+            <p>{{ form.description.label}}</p>
+            <p>{{ form.description }}</p>
+            <p>{{ form.submit }}</p>
+        </fieldset>    
+	</form>
+</div>
+{% else %}
+<h2>User not Logged In!</h2>
+<p>Sorry, You must be logged in to access this page!</p>
+
+<a href="{{ url_for('login') }}">Login Here</a>
+
+{% endif %}
+
+{% endblock %}

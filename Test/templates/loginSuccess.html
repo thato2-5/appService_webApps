@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Successful Login!
+{% endblock %}
+
+{% block content %}
+{% for message in get_flashed_messages() %}
+    <div>{{message}}</div>
+{% endfor %}
+    <br/>
+    <h2>User Login details</h2>
+    <br/>
+    <ul>
+        <li>Name: {{name}}</li>
+        <li>Username: {{username}}</li>
+        <li>Email: {{email}}</li>
+        <li>Password: {{password}}</li>
+    </ul>
+    <p><a href="/">Return Home</a></p>
+    <p><a href="/search">Search</a></p>
+    <p><a href="/logout">Logout</a></p>
+    <p><a href="/addNote">Add Note</a></p>
+{% endblock %}

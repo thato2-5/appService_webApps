@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Custom Page!
+{% endblock %}
+
+{% block content %}
+    <p>Hello welcome to self serve online Diary</p>
+    <p>Existing user please login here <a href="/login">User Login</a></p>
+    <p>New user please register here <a href="/register">User Registration</a></p>
+{% endblock %}
