@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Sign-In Page">
+    <meta name="author" content="Thato Monyamane">
+    <title>Sign In</title>
+    <script src="./jquery-3.7.1.min.js"></script>
+
+    <!--  Bootstrap core CSS  -->
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+
+    <!--  Custom style for this template  -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div id="loading-spinner"></div>
+    </div>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a href="index.html" class="btn btn-outline-primary">Back to Home</a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="#">Sign In</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <!-- Empty for layout consistency -->
+                </div>
+            </div>
+        </header>
+        
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="pb-4 mb-4 font-italic border-bottom">Sign In to Your Account</h3>
+                    <form id="signInForm">
+                        <div class="form-group">
+                            <label for="signInEmail">Email address</label>
+                            <input type="email" class="form-control" id="signInEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signInPassword">Password</label>
+                            <input type="password" class="form-control" id="signInPassword" placeholder="Enter your password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="signInSubmitBtn">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--  Bootstrap JS  -->
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#loading-overlay").hide();
+
+            $("#signInForm").submit(function(e){
+                e.preventDefault();
+                $("#loading-overlay").show();
+                // Simulating form submission delay
+                setTimeout(function(){
+                    $("#loading-overlay").hide();
+                    alert('Signed in successfully!');
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>

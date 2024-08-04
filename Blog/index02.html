@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button type="button" id="nextBtn">Next</button>
+    <button type="button" id="next01Btn">Next01</button>
+    <script>
+        $(document).ready(function(){
+            // Add the click events to the appropriate buttons
+            $("#nextBtn").click(function(){
+                // Navigate to respective page
+                window.location.href = "subscribe.html";
+            });
+
+            // Add the click events to the appropriate buttons
+            $("#next01Btn").click(function(){
+                // Navigate to respective page
+                window.location.href = "signin.html";
+            });
+        });
+    </script>
+</body>
+</html>
