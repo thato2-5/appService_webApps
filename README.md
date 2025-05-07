@@ -63,6 +63,10 @@ Deploy the application:
 
     az webapp up --name myUniqueAppName --resource-group myResourceGroup
 
+#### Screenshots / Video Demo:
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_signin-Copy.png)
+
 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
