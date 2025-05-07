@@ -71,7 +71,7 @@ Deploy the application:
 ![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApps_loading.png)
 
 **Screenshot 3: ** [Third Form]
-![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApp_Home.png)
+![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApps_Home.png)
 
 Contributing
 
