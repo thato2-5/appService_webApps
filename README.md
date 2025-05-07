@@ -72,15 +72,15 @@ Deploy the application:
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home01.png)
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home02.png)
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home03.png)
 
 
 ** Screenshot 1:** [First Form]
