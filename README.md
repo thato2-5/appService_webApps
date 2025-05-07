@@ -65,7 +65,7 @@ Deploy the application:
 
 #### Screenshots / Video Demo:
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_signin-Copy.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/blob_signin - Copy.png)
 
 Contributing
 
