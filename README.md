@@ -67,6 +67,12 @@ Deploy the application:
 **Screenshot 1: ** [First Form]
 ![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApp_loading_Home.png)
 
+**Screenshot 2: ** [Second Form]
+![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApps_loading.png)
+
+**Screenshot 3: ** [Third Form]
+![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApp_Home.png)
+
 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
