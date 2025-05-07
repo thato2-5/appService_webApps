@@ -65,7 +65,7 @@ Deploy the application:
 
 #### Screenshots / Video Demo:
 **Screenshot 1: ** [First Form]
-![Image](https://github.com/thato2-5/appService_WebApp/blob/main/appService_WebApp_loading_Home.png)
+![Image](https://github.com/thato2-5/appService_WebApps/blob/main/appService_WebApp_loading_Home.png)
 
 Contributing
 
