@@ -67,6 +67,28 @@ Deploy the application:
 ** Screenshot 1:** [First Form]
 ![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_visualizer.png)
 
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home.png)
+
+
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home01.png)
+
+
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home02.png)
+
+
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home03.png)
+
+
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_signin.png)
+
+** Screenshot 1:** [First Form]
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_subscribe.png)
+
 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
