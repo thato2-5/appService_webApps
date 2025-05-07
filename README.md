@@ -68,19 +68,19 @@ Deploy the application:
 ![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_visualizer.png)
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home01.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home02.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
 
 
 ** Screenshot 1:** [First Form]
-![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blob_home03.png)
+![Image](https://github.com/thato2-5/appService_webApps/blob/Blog/blog_home.png)
 
 
 ** Screenshot 1:** [First Form]
